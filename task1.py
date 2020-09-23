@@ -8,4 +8,6 @@
 #
 # Sample output:
 # Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
-
+name=input("Enter your Name. ")
+email=input("Enter your Email Address. ")
+print("Your name is "+ name + ", and your email is "+ email +".")

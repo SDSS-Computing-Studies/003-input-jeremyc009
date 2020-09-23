@@ -13,3 +13,12 @@
 # Note: You will need to do some strange things with your cube root.
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
+import math
+print("This is a program to find the radius of a sphere when given volume.")
+volume=float(input("Enter the volume of a sphere. "))
+coeff=4/3
+FirstStep=volume/coeff
+cube=FirstStep/math.pi
+exp=1/3
+radius=cube**exp
+print(radius)
